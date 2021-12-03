@@ -7,7 +7,7 @@ const randomGen = Math.floor(Math.random()*quotes.length)
 const randomQuote= quotes[randomGen]
 
 function generateMessage(){
-  console.log(randomQuotes);
+  console.log(randomQuote);
 }
 
 generateMessage()
